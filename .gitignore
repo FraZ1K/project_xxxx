@@ -1,0 +1,23 @@
+# Compiled files
+out/
+*.class
+*.jar
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
