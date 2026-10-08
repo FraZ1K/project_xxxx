@@ -42,7 +42,7 @@ public class Main {
                     System.out.println("   ⚠ Пропущен");
                     hasError = true;
                 } else {
-                    System.out.println("   ✅ Найдено лексем: " + tokens.size());
+                    System.out.println("");
                     for (Token t : tokens) {
                         if (t.getType() != TokenType.EOF) {
                             stats.processToken(t);
